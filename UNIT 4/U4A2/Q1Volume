@@ -1,0 +1,18 @@
+# NAME OF AUTHOR: Heleana 
+# NAME OF THE PROGRAM:Q1Volume  
+# DATE OF CREATION:Jan 20/22  
+# PURPOSE OF PROGRAM:Create a program that will ask the user for the height, width and depth of a rectangular prism and display the volume of the prism  
+
+
+# VARIABLE DEFINITION
+# INPUT
+print ('please enter height')
+height = int(input())
+print ('please enter width')
+width = int(input())
+print ('please enter depth')
+depth = int(input())
+# PROCESSING
+volume = (height*width*depth)
+# OUTPUT
+print (volume)
