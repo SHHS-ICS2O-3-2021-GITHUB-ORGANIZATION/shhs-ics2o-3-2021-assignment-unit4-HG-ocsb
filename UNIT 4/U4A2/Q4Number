@@ -3,7 +3,7 @@
 # DATE OF CREATION: Jan20/22
 # PURPOSE OF PROGRAM: Create a program that will accept five numbers from the user. Your program should then calculate the sum and average of the five entered values. The program will then display the numbers and results in a table-like format. The table should label each number, Number 1 .. Number 5, Sum, Average, and then output the numbers and results under the labels. 
 
-
+######
 # VARIABLE DEFINITION
 # INPUT
 print ('please enter firstnumber')
