@@ -3,22 +3,29 @@
 # DATE OF CREATION: Jan20/22
 # PURPOSE OF PROGRAM: Create a program that will accept five numbers from the user. Your program should then calculate the sum and average of the five entered values. The program will then display the numbers and results in a table-like format. The table should label each number, Number 1 .. Number 5, Sum, Average, and then output the numbers and results under the labels. 
 
-######
 # VARIABLE DEFINITION
+firstnumber = 0
+secondnumber = 0
+thirdnumber = 0
+fourthnumber = 0
+fithtnumber = 0
+
 # INPUT
-print ('please enter firstnumber')
+print ('please enter first number')
 firstnumber = int(input())
-print ('please enter secondnumber')
+print ('please enter second number')
 secondnumber = int(input())
-print ('please enter thirdnumber')
+print ('please enter third number')
 thirdnumber = int(input())
-print ('please enter fourthnumber')
+print ('please enter fourth number')
 fourthnumber = int(input())
-print ('please enter fithnumber')
+print ('please enter fith number')
 fithnumber = int(input())
+
 # PROCESSING
 sum = (firstnumber + secondnumber + thirdnumber + fourthnumber + fithnumber)
 average = ((firstnumber + secondnumber + thirdnumber + fourthnumber + fithnumber)/5)
+
 # OUTPUT
 #calculate sum
 print (firstnumber + secondnumber + thirdnumber + fourthnumber + fithnumber)
