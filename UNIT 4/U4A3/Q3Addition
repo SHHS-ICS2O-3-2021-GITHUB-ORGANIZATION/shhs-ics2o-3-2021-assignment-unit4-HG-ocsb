@@ -1,6 +1,27 @@
 # NAME OF AUTHOR: Heleana 
 # NAME OF THE PROGRAM:Q2RandomRange  
 # DATE OF CREATION: Jan20/22
-# PURPOSE OF PROGRAM:Create a program that will ask the user an addition question. The program will generate two random numbers between 1 and 100, and display them as an addition question with appropriate prompts. 
+# PURPOSE OF PROGRAM:Create a program that will ask the user an addition question. The program will generate two random numbers between 1 and 100, and display them as an addition question with appropriate prompts.
+
+#Variable definition
+x = (random.randint(1,100)) 
+y = (random.randint(1,100))
+#Input
+userAns = int(input())
+
+#Processing
+import random
+#cal anwser
+ans = x + y
+
+#Output
+print("what is the anwser to  " + str(x) + "+" + str(y))
+
+if userAns == ans:
+  print("Correct!!!")
+
+else:
+  print ("Incorrect :( ")
+
 
 
