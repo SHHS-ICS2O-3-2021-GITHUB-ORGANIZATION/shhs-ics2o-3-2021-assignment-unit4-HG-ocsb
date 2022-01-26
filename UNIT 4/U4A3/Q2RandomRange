@@ -6,6 +6,7 @@
 #Variable Definition
 firstnumber = 0 
 secondnumber = 0
+
 #Input
 #User insert numbers
 print ('please enter first number')

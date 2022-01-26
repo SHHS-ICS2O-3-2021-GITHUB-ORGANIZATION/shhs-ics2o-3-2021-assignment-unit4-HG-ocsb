@@ -1,0 +1,36 @@
+# NAME OF AUTHOR: Heleana 
+# NAME OF THE PROGRAM:Q2RandomRange  
+# DATE OF CREATION: Jan26/22
+# PURPOSE OF PROGRAM: Create a program that will allow the user to enter a series of non-zero numbers. When the user is finished, they will enter the number 0, and the program will display the sum and average of the numbers entered.
+
+#Variable definition
+sum = 0
+average = 0
+num1 = 0
+num2 = 0
+num3 = 0
+num4 = 0
+num5 = 0
+fin = 0
+
+#Input
+#user enter number
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+num4 = int(input())
+num5 = int(input())
+fin = int(input())
+
+#Processing
+if fin == 0:
+  sum = (num1 + num2 + num3 + num4 + num5)
+  average = ((num1 + num2 + num3 + num4 + num5)/5)
+
+#Output
+print('enter 5 numbers without any zeros')
+print('enter 0 to continue')
+ print('The sum is:')
+  print(sum)
+  print('The average is:')
+  print(average)

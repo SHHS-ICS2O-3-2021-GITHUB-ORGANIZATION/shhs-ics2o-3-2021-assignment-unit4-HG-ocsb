@@ -1,0 +1,30 @@
+# NAME OF AUTHOR: Heleana 
+# NAME OF THE PROGRAM:Q2RandomRange  
+# DATE OF CREATION: Jan26/22
+# PURPOSE OF PROGRAM: Create a program that will ask the user for a large number and for the number to count by. The program is then to count up to the number and then count down to zero by the number entered.
+
+#Variable definition
+largeNum = 0
+countNum = 0
+counter = 0
+
+#Input
+#user chose numbers
+largeNum = int(input())
+countNum = int(input())
+
+#Processing
+    #count up 
+while counter < largeNum:
+  counter = counter + countNum
+  if counter < largeNum:
+    #count down
+while counter >= 0:
+counter = counter - countNum
+  
+  #Output
+  print("please enter a large number")
+  print("please enter a number to count by")
+  print(counter)
+  print(counter)
+  print(counter)
